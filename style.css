@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+a:link    {color: #3b3c41;}
+a:visited {color: #A07297;}
+a:hover   {color: #689c79};
+a:active  {color: #553a50;}
+
+.dark {
+  background-color: #3b3c41;
+  color: #e3dfcc;
+}
+
+.light {
+  background-color: #f0dfb9;
+  color: #3b3c41;
+}
+
+hr {
+  border: 3px solid #A07297;
+  width: 35%;
+}
+.center, article, hr {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3 {
+  margin-top: 30px;
+}
+
+.center-text, h1, h2, h3 {
+  text-align: center;
+}
+
+div {
+  margin: 10px 5px;
+
+}
+
+h1, h2 {
+  color: #689c79;
+}
