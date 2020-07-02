@@ -51,6 +51,11 @@ h1, h2 {
   font-family: garamond, serif;
 }
 
+h1 {
+  font-family:  courgette, cursive;
+}
+
+
 body > header > div > hr{
   width: 25%;
 
