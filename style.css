@@ -34,7 +34,7 @@ img {
 }
 
 h1 {
-  font-family:  courgette, cursive;
+  font-family:  "Courgette", cursive;
   font-size: 5rem;
 }
 
@@ -63,6 +63,10 @@ li, p {
   font-family: "roboto condensed", sans-serif;
 }
 
+p {
+  text-align: justify;
+}
+
 div {
   margin: 10px 5px 20px 5px;
 }
@@ -72,7 +76,6 @@ body > header > div > hr{
 
 }
 
-footer {
+footer > p{
   text-align: center;
-
 }
