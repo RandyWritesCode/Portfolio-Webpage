@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+/*creating visual interest through color, shape and size */
+.dark-background {
+  background: #3b3c41;
+  color: #e3dfcc;
+}
+
+.light-background {
+  background: #f0dfb9;
+  color: #3b3c41;
+}
+
+hr {
+  border: 4px solid #A07297;
+  border-radius: 50%;
+}
+
+body > header > div > hr{
+  width: 25%;
+}
+
+img {
+  width: 100%;
+}
+
+footer {
+  height: auto;
+}
+
+a:link    {color: #3b3c41;}
+a:visited {color: #A07297;}
+a:hover   {color: #689c79;}
+a:active  {color: #e3dfcc;
+  background-color: #3b3c41;}
+
+  
+/* center content to create visual interest and whitespace on sides*/  
+.center, article, hr {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center-text, h1, h2, h3 {
+  text-align: center;
+}
+
+/* modifying character size, font and color */
+h1, h2 {
+  color: #f0dfb9;
+}
+
+h1 {
+  font-family:  "Courgette", cursive;
+  font-size: 5rem;
+  text-shadow: 3px 3px 2px #1f1f22;
+}
+
+h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px;
+  text-shadow: 3px 3px 2px #1f1f22;
+  font-variant: small-caps;
+}
+
+h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 30px;
+  font-size: 32px;
+  font-variant: small-caps;
+}
+
+li, p {
+  font-size: 20px;
+  font-family: "roboto condensed", sans-serif;
+}
+
+p {
+  text-align: justify;
+}
+
+/* creating more space to div containers and around main container*/
+div {
+  margin: 10px 5px 20px 5px;
+}
+
+main {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
