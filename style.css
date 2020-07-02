@@ -21,8 +21,13 @@ hr {
   border: 3px solid #A07297;
   width: 35%;
 }
-.center, article, hr {
+
+main > div > article > img {
   width: 50%;
+}
+
+.center, article, hr {
+  width: 40%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -42,5 +47,11 @@ div {
 }
 
 h1, h2 {
-  color: #689c79;
+  color: #f0dfb9;
+  font-family: garamond, serif;
+}
+
+body > header > div > hr{
+  width: 25%;
+
 }
