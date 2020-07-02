@@ -64,7 +64,7 @@ li, p {
 }
 
 div {
-  margin: 10px 5px;
+  margin: 10px 5px 20px 5px;
 }
 
 body > header > div > hr{
@@ -74,5 +74,5 @@ body > header > div > hr{
 
 footer {
   text-align: center;
-  
+
 }
