@@ -33,18 +33,20 @@ main > div > article > img {
   margin-right: auto;
 }
 
+h1 {
+  font-family:  courgette, cursive;
+  font-size: 5rem;
+}
+
 .center-text, h1, h2, h3 {
   text-align: center;
+  
 }
 
 h1, h2 {
   color: #f0dfb9;
 }
 
-h1 {
-  font-family:  courgette, cursive;
-  font-size: 5rem;
-}
 
 h2 {
   font-family: ;
@@ -57,7 +59,7 @@ h3 {
 
 li, p {
   font-size: 20px;
-  font-family: sans-serif;
+  font-family: "roboto condensed", sans-serif;
 }
 div {
   margin: 10px 5px;
