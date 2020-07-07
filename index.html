@@ -26,9 +26,8 @@
     <!--header with dark background and light letters-->
     <header id="home">
       <div>  
-        <div >
+        <div>
           <h1>Randy Douglas</h1>
-          <h2>Software Developer</h2>
         </div>
         <div>
           <nav >
@@ -50,7 +49,7 @@
         <article class="center">
           <div>
   <!--my image centered and resized to 1/4 the page width -->
-            <img class="center" src="images/library.jpg" alt="self-portrait">
+            <img class="center " src="images/library.jpg" alt="self-portrait">
           </div>
   <!--Intro section - who i am-->
           <h3>Meet Randy</h3>
@@ -132,14 +131,34 @@
         <!-- Contact Section-->
         <article class="center">
           <h3>Contact</h3>
-          <p>Interested in hiring me?  Here is my contact information:</p>
+          <p>Interested in hiring me?  Here are the best ways to reach me:</p>
           <ul>
             <!--links to contact me-->
-            <li>email me at: <a href="mailto:randy.e.douglas@gmail.com">randy.e.douglas@gmail.com</a></li>
+            <li>email: <a href="mailto:randy.e.douglas@gmail.com">randy.e.douglas@gmail.com</a></li>
             <li><a href="https://www.linkedin.com/in/randy-douglas-4b862859/" target="_blank">LinkedIn</a></li>
             <li><a href="https://github.com/GhostCode83" target="_blank">GitHub</a></li>
           </ul>
           <div>
+            <form action="https://formspree.io/randy.e.douglas@gmail.com"
+            method="post">
+              <fieldset>
+                <legend>Contact Form</legend>
+                  <div>
+                    <label for="name"> Name: </label>
+                    <input id="name" placeholder="First and Last Name" type="text" required name="name">
+                    
+                  </div>
+                  <div>
+                    <label for="email"> Email: </label>
+                    <input id="email" placeholder="Email Address" type="email" required name="email">
+                  </div>
+                  <div>
+                    <label for="form-message"> Your Message: </label>
+                    <textarea id="form-message"  required name="message"></textarea>
+                  </div>
+                  <button>Submit</button>
+              </fieldset>
+            </form>
     <!--image of map, my current area-->
             <img  src="images/map.jpg" alt="dc-maryland-map">
           </div>
