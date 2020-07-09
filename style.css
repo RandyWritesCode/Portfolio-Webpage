@@ -188,7 +188,7 @@ header div {
   }
 
 .right {
-  align-self: flex-end;
+  left-margin: auto;
 }
 
 }
