@@ -3,9 +3,14 @@
 }
 
 
+<<<<<<< HEAD
 /* color, shape and size */
 .dark-background {
   background: #3b3c41;
+=======
+.dark-background {
+  background-color: #3b3c41;
+>>>>>>> Adding comments
   color: #e3dfcc;
 }
 
